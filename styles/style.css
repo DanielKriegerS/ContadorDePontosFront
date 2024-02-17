@@ -1,0 +1,55 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(130, 140, 200, .4);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: 4rem auto 1em auto;
+    color: rgba(10, 10, 150, .8);
+}
+
+.text {
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    border: .5em solid rgba(10, 10, 150, .1);
+    border-radius: .5em;
+    width: 50%;
+    height: 400px;
+}
+
+button {
+    margin: 2rem auto;
+    width: 30%;
+    background-color: rgba(130, 140, 200, .4);
+    color: white;
+    border: .5em solid rgba(10, 10, 150, .5);
+    border-radius: .5em;
+    height: 15%;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.able:hover {
+    background-color: rgba(80, 80, 150, .8);
+    border-color:  rgba(7, 7, 135, 0.8);
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: gray;
+    color: black;
+    border-color: gray;
+}
