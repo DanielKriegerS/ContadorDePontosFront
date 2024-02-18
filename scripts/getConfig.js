@@ -9,6 +9,6 @@ playBtn.addEventListener("click", () => {
     localStorage.setItem("playerTwo", playerTwo);
     localStorage.setItem("max", max);
 
-    window.location.href = "newGame.html";
+    window.location.href = "gamePage.html";
 })
 
