@@ -1,5 +1,5 @@
 const newGameButton = document.getElementById("newGame");
 
 newGameButton.addEventListener("click", () => {
-    window.location.href = "./pages/newGame.html";
+    window.location.href = "./pages/config.html";
 });
