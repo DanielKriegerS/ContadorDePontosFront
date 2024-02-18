@@ -1,0 +1,28 @@
+* {
+    margin:  0 auto;
+    padding: 0 auto;
+    background-color: rgba(130, 140, 200, .4);
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.header {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.content {
+    display: flex;
+}
+
+.playerDiv {
+    margin: .5em;
+    width: 30rem;
+    height: 25rem;
+}
