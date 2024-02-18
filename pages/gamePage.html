@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo jogo</title>
 
-    <link rel="stylesheet" type="style/css" href="/styles/gamePageStyle.css">
+    <link rel="stylesheet" type="text/css" href="/styles/gamePageStyle.css">
 </head>
 <body>
-    <h1>BEM VINDO AO NOVO JOGO!</h1>
-    <span id="playerOne"></span>
+
+    <div class="header">
+        <h1> PLACAR MAX: <span id="max"></span></h1>
+    </div>
+
+    <div class="content">
+        <div class="playerDiv" id="playerOneDiv">
+            <span id="playerOneNick"></span>
+            <span id="playerOnePont"></span>
+
+            <button id="playerOneBtn">Somar</button>
+        </div>
+
+        <div class="playerDiv" id="playerTwoDiv">
+            <span id="playerTwoNick"></span>            
+            <span id="playerTwoPont"></span>
+
+            <button id="playerTwoBtn">Somar</button>
+        </div>
+    </div>
 
     <script src="/scripts/gamePageScript.js"></script>
 </body>
