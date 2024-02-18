@@ -1,0 +1,62 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: rgba(130, 140, 200, .4);
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 4rem auto 1em auto;
+    color: rgba(10, 10, 150, .8);
+}
+
+.optionsMenu {
+    height: 400px;
+    width: 50%;
+    border: .3em solid rgba(10, 10, 150, .8);
+}
+
+.item {
+    margin: 4rem;
+    color: rgba(10, 10, 150, .8);
+}
+
+label {
+    margin-right: 2rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+input {
+    color: rgba(10, 10, 150, .8);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.btnDiv {
+    height: 10%;
+    width: 30%;
+    border-radius: 1em;
+}
+
+#playBtn {
+    color: rgba(10, 10, 150, .8);
+    width: 100%;
+    height: 100%;
+    border: .2em solid rgba(130, 140, 200, .4);
+    border-radius: 1em;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+#playBtn:hover {
+    background-color: rgba(10, 10, 150, .8);
+    color: rgba(195, 203, 249, 0.4);
+    cursor: pointer;
+}
