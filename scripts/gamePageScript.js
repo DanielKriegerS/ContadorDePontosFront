@@ -1,5 +1,9 @@
 const max = document.getElementById("max");
 max.innerHTML = localStorage.getItem("max");
+const maxPont = localStorage.getItem("max");
+
+localStorage.setItem("playerOnePont", 0);
+localStorage.setItem("playerTwoPont", 0);
     
 const playerOneNick = document.getElementById("playerOneNick");
 const playerTwoNick = document.getElementById("playerTwoNick");
@@ -35,7 +39,9 @@ const testEndGame = () => {
     var actualPontPOne = localStorage.getItem("playerOnePont");
     var actualPontPTwo = localStorage.getItem("playerTwoPont");
 
-    if(actualPontPOne == localStorage.getItem("max") || actualPontPTwo == localStorage.getItem(max)){
-        window.location.href = "/index.html";
+
+    if(actualPontPOne == maxPont || actualPontPTwo == maxPont) {
+        window.location.href = '/index.html'
     }
+    
 }
