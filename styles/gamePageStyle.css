@@ -21,8 +21,85 @@ body {
     display: flex;
 }
 
+span, h1 {
+    color: rgba(10, 3, 97, 0.8);
+    background-color: unset;
+}
+
 .playerDiv {
     margin: .5em;
     width: 30rem;
     height: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0 0;
 }
+
+#playerOneNick, #playerTwoNick, #playerOnePont, #playerTwoPont {
+    margin: .3em auto;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#playerOneDiv {
+    background-color: rgba(60, 40, 200, .9);
+}
+
+#playerOneDiv.hasHand {
+    background-color: rgba(60, 40, 250, 1);
+}
+
+#playerTwoDiv {
+    background-color: rgba(200, 20, 80, .3);
+}
+
+#playerTwoDiv.hasHand {
+    background-color: rgba(230, 20, 80, .6);
+}
+
+.playerBtn {
+    margin-top: 3em;
+    width: 30%;
+    height: 10%;
+    font-weight: 900;
+    border: .3em solid;
+    border-radius: 25%;
+}
+
+#playerOneBtn {
+    border-color: rgba(10, 3, 160, 0.8);
+    color: rgba(10, 3, 160, 0.8);
+}
+
+#playerOneBtn:hover {
+    background-color: rgba(10, 3, 180, 0.9);
+    color: rgba(198, 227, 242, 0.5);
+    cursor: pointer;
+}
+
+#playerTwoBtn {
+    border-color: rgba(200, 20, 80, .3);
+    color: rgba(200, 20, 80, .3);
+}
+
+#playerTwoBtn:hover {
+    background-color: rgba(200, 20, 80, .3);
+    color: rgba(198, 227, 242, 0.5);
+    cursor: pointer;
+}
+
+.iconDiv {
+    margin: 0 .5em;
+    background-color: unset;
+    font-size: 2em;
+    visibility: hidden;
+}
+
+i {
+    background-color: unset;
+}
+
+#playerOneHand {
+    color: rgba(10, 3, 100, 0.8);
+}
+
