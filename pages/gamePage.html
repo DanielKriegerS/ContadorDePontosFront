@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo jogo</title>
 
+    <script src="https://kit.fontawesome.com/ca8b6f69cb.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="/styles/gamePageStyle.css">
 </head>
 <body>
@@ -16,17 +18,26 @@
 
     <div class="content">
         <div class="playerDiv" id="playerOneDiv">
+            
+            <div id="divOne" class="iconDiv">
+                <i id="playerOneHand" class="fa-solid fa-hand"></i>
+            </div>
+            
             <span id="playerOneNick"></span>
             <span id="playerOnePont"></span>
 
-            <button id="playerOneBtn">Somar</button>
+            <button class="playerBtn" id="playerOneBtn">SOMAR</button>
         </div>
 
         <div class="playerDiv" id="playerTwoDiv">
+            <div id="divTwo" class="iconDiv">
+                <i id="playerTwoHand" class="fa-solid fa-hand"></i>
+            </div>
+
             <span id="playerTwoNick"></span>            
             <span id="playerTwoPont"></span>
 
-            <button id="playerTwoBtn">Somar</button>
+            <button class="playerBtn" id="playerTwoBtn">SOMAR</button>
         </div>
     </div>
 
