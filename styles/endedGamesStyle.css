@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    margin:  0 auto;
+    padding: 0 auto;
+    background-color: rgba(130, 140, 200, .4);
+}
+
+.endedGamesGrid {
+    display: flex;
+    width: 100%;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: .5em;
+    margin: .3em;
+    border: 1px solid rgba(130, 140, 200, .4);
+    border-radius: 1em;
+}
+
+.header {
+    margin: 0 auto;
+    color: rgba(35, 4, 54, 0.4)
+}
+
+.sectionsDiv {
+    display: flex;
+}
+
+.playerGrid {
+    width: 50%;
+    margin: .2em;
+    padding: .1em;
+    border: 1px solid;
+}
