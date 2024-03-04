@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    margin-top: 4em;
+    margin-top: 1em;
     margin-bottom: 2em;
 }
 
@@ -29,16 +29,21 @@ span, h1 {
 .playerDiv {
     margin: .5em;
     width: 30rem;
-    height: 25rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    padding: 2em 0 0;
+    padding: 1em 0 0;
 }
 
 #playerOneNick, #playerTwoNick, #playerOnePont, #playerTwoPont {
-    margin: .3em auto;
     font-weight: 900;
     font-size: 3rem;
+}
+#playerOnePont, #playerTwoPont {
+    margin-top: 4.6em;
+}
+#playerOneNick, #playerTwoNick {
+    margin: .3em auto;
 }
 
 #playerOneDiv {
@@ -46,7 +51,8 @@ span, h1 {
 }
 
 #playerOneDiv.hasHand {
-    background-color: rgba(60, 40, 250, 1);
+    background-image: url("../assets/bgyourturn-O.png");
+    background-repeat: no-repeat;
 }
 
 #playerTwoDiv {
@@ -54,11 +60,12 @@ span, h1 {
 }
 
 #playerTwoDiv.hasHand {
-    background-color: rgba(230, 20, 80, .6);
+    background-image: url("../assets/bgyourturn-O.png");
+    background-repeat: no-repeat;
 }
 
 .playerBtn {
-    margin-top: 3em;
+    margin-top: .5em;
     width: 30%;
     height: 10%;
     font-weight: 900;
@@ -93,6 +100,8 @@ span, h1 {
     background-color: unset;
     font-size: 2em;
     visibility: hidden;
+    width: 10%;
+    align-self: flex-end;
 }
 
 i {
